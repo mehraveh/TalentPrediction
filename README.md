@@ -1,1 +1,58 @@
 # TalentPrediction
+
+# --------------------
+# Python cache
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --------------------
+# Virtual environments
+# --------------------
+.venv/
+venv/
+env/
+
+# --------------------
+# Packaging / build artifacts (PyInstaller, cx_Freeze, etc.)
+# --------------------
+build/
+dist/
+*.spec
+
+# If your build folder is named differently
+exe.win-amd64-*/
+*.egg-info/
+.eggs/
+*.whl
+
+# --------------------
+# OS files
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Logs
+# --------------------
+*.log
+
+# --------------------
+# Secrets / local data (VERY IMPORTANT)
+# --------------------
+user_credentials.csv
+*.env
+.env
+*.key
+*.pem
+
+# Local runtime outputs (your app generates these)
+last_id.txt
+
+# If those are generated outputs (not source assets)
+modified_presentation.pptx
+
+# If these CSVs are generated/exported outputs (not sample inputs)
+data/csvs/
